@@ -1,0 +1,79 @@
+body,html{
+    height:100%;
+}
+.message{
+    width:100%;
+    height:100%;
+}
+.message-le{
+    float: left;
+    width:15%;
+    height:100%;
+    background: #3F3F3F;
+}
+.message-zh{
+    float: left;
+    width:25%;
+    background: #fff;
+    height:100%;
+    border-right: 1px solid #D9D9D9;
+}
+.message-ri{
+    float: left;
+    width: 58%;
+    height:100%;
+    background: #fff;
+}
+.myzhuye{
+    width:158px;
+    height:43px;
+    border: 1px solid #D05F4E;
+    color: #D05F4E;
+    border-radius: 20px;
+    line-height: 43px;
+    text-align: center;
+    margin-top:27px;
+    margin-left: 16px;
+    font-size: 20px;
+    display: block;
+}
+.xinjian,.riji,.suibi,.huishou{
+    font-size: 14px;
+    line-height: 42px;
+    height:42px;
+    width:100%;
+    text-align: center;
+    color: #D5F4FF;
+    margin-top:10px;
+}
+.xinjian>a,.riji>a,.suibi>a,.huishou>a{
+    color: #D5F4FF;
+}
+.message-zh>li{
+    line-height: 50px;
+    padding-left: 10px;
+    margin-top:10px;
+}
+.crea1>a{
+    height:60px;
+    font-size: 14px;
+    color:#000;
+    display: block;
+}
+.crea2>a{
+    height:90px;
+    font-size: 20px;
+    color:#000; display: block;
+
+}
+.crea3>a{
+    height:50px;
+    font-size: 12px;
+    color: #9C9BB3; display: block;
+}
+.massage-ri>#editor{
+    margin-top:0px;
+    margin-left: 0px;
+    width:100%;
+    height:100%;
+}

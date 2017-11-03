@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>上传文章</title>
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="iconfont/font_449249_q79tgdp5vo5el8fr/iconfont.css">
+    <link rel="stylesheet" href="css/xiewen.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" charset="utf-8" src="utf8-php/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="utf8-php/ueditor.all.min.js"> </script>
+    <script type="text/javascript" charset="utf-8" src="utf8-php/lang/zh-cn/zh-cn.js"></script>
+    <script src="js/user.js"></script>
+</head>
+<body>
+<section class="message">
+    <ul class="message-le">
+        <li><a class="myzhuye" href="user.html"><p>我的主页</p></a></li>
+        <li class="xinjian"><a href="">新建文集</a></li>
+        <li class="riji"><a href="">日记本</a></li>
+        <li class="suibi"><a href="">随笔</a></li>
+        <li class="huishou"><a href="">回收站</a></li>
+    </ul>
+    <ul class="message-zh">
+        <li class="crea1"><a href="">新建</a></li>
+        <li class="crea2"><a href="">写文章</a></li>
+        <li class="crea3"><a href="">在下方新建</a></li>
+    </ul>
+    <ul class="message-ri">
+        <script id="editor" name="scon" type="text/plain" style="width:800px;height:300px;"></script>
+        <!--引入的编辑器-->
+        <script type="text/javascript">
+            var ue = UE.getEditor('editor');
+        </script>
+    </ul>
+</section>
+</body>
+</html>

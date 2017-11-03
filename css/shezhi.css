@@ -1,0 +1,84 @@
+@import url(Establish.css);
+.shezhi{
+    width: 100%;
+    height: auto;
+    margin-top:30px;
+}
+.shezhi-le{
+    width:30%;
+    height:auto;
+    float: left;
+}
+.shezhi-ri{
+    width: 66.666666%;
+    height:auto;
+    float: right;
+}
+.shezhi-le>li{
+    height:53px;
+    width:100%;
+}
+.shezhi-le>li:first-child{
+    background: #F0F0F0;
+}
+.shezhi-le>li>a{
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    line-height: 53px;
+}
+.seefile{
+    width:103px;
+    height:103px;
+    border-radius: 50%;
+    display: block;
+    float: left;
+    margin-top:-10px;
+}
+.seefile>img{
+    width:100%;
+    border-radius: 50%;
+    height:100%;
+}
+.file{
+    float: left;
+    margin-top:27px;
+    margin-left:55px;
+}
+.filecon{
+    margin-top:-30px;
+    display: block;
+}
+.user-input{
+    /*overflow: hidden;*/
+    margin-top:0px;
+}
+.xiugai{
+    width:100%;
+    height: auto;
+    margin-top:60px;
+    overflow: hidden;
+}
+.xiugai>li{
+    height: 60px;
+    width:100%;
+    border-bottom: 1px solid #C8C8C8;
+    background: #fff;
+    line-height: 60px;
+}
+.xiugai>li>p{
+    float: left;
+    color:#999D9D;
+    font-size: 14px;
+    width:150px;
+}
+.user,.upass{
+    width: 215px;
+    height: 35px;
+    border: 1px solid #C8C8C8;
+    background: #F8F8F8;
+    float: left;
+    margin-top:15px;
+    margin-left: 50px;
+    border-radius: 5px;
+}

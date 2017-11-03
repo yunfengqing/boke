@@ -1,0 +1,164 @@
+@import "user.css";
+.user-le{
+    width:20%;
+    height:auto;
+    float: left;
+}
+.user-le>div:nth-child(1){
+    width: 100%;
+    height: 35px;
+    font-size: 22px;
+    line-height: 35px;
+    color: #000;
+    margin-top:10px;
+    font-weight: bold;
+}
+.user-le>div:nth-of-type(2){
+    margin-top:15px;
+    width:100px;
+    height:100px;
+    border-radius: 10px;
+    background: #FFE5E1;
+    border: 1px solid #DDDDDD;
+}
+.user-le>div:nth-of-type(2)>ul{
+    width:50px;
+    height:50px;
+    margin-top:25px;
+    margin-left:25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.user-le>div:nth-of-type(2)>ul>li{
+    margin-top:3px;
+    width: 48%;
+    height:48%;
+    float: left;
+    background: #E78170;
+}
+.user-le>div:nth-of-type(3),.user-le>div:nth-of-type(4)>,.user-le>div:nth-of-type(6),.user-le>div:nth-of-type(5),.user-le>div:nth-of-type(7){
+    color: #9D9E9D;
+    font-size: 14px;
+}
+.user-le>div:nth-of-type(3){
+    margin-top:48px;
+}
+.user-le>div:nth-of-type(4){
+    margin-top:48px;
+}
+.user-le>div:nth-of-type(5){
+    margin-top:120px;
+}
+.user-le>div:nth-of-type(6){
+    margin-top:50px;
+}
+.user-le>div:nth-of-type(7){
+    margin-top:32px;
+}
+.user-ri{
+    width:80%;
+    height:auto;
+    float: left;
+}
+.user-input{
+    width: 100%;
+    height:auto;
+    margin-top:100px;
+}
+.file{
+    width: 112px;
+    height: 32px;
+    border-radius: 20px;
+    border: 1px solid #75D460;
+    color:#75D460;
+    background: #fff;
+    line-height: 32px;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    cursor: pointer;
+}
+.file1:hover{
+    background: #BFFCB4;
+}
+.filecon{
+    cursor: pointer;
+    border-radius: 20px;
+    width:144px;
+    height:34px;
+    opacity: 0;
+    position: absolute;
+    left:-20px;
+}
+.title{
+    width:100%;
+    height:44px;
+    margin-top:65px;
+    background: #F8F8F8;
+    border: 1px solid #C8C8C8;
+    border-radius: 8px;
+}
+.titlecon{
+    margin-top: 0px;
+    margin-left:14px;
+    width: 96%;
+    height:76%;
+    background: #F8F8F8;
+    border: 0px solid #C8C8C8;
+    outline: none;
+}
+
+.mess{
+    width:100%;
+    height:100px;
+    margin-top:32px;
+    background: #F8F8F8;
+    border: 1px solid #C8C8C8;
+    border-radius: 8px;
+}
+.messcon{
+    background: #F8F8F8;
+    border: 0px solid #C8C8C8;
+    outline: none;
+    margin-top: 0px;
+    margin-left:14px;
+    width: 96%;
+    height:80%;
+}
+.name{
+    margin-top:28px;
+}
+.shenhe{
+    width:100%;
+    height:44px;
+    margin-top:8px;
+}
+.tougao{
+    width:100%;
+    height:44px;
+    margin-top:44px;
+}
+.sub{
+    background: #42C02E;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+}
+.sub:hover{
+    background: #0A7627;
+}
+.sub>p{
+    margin-left:4px;
+}
+.subcon{
+    opacity: 0;
+    width:108px;
+    height:32px;
+    margin-left:20px;
+    cursor: pointer;
+    position: absolute;
+    left: 0px;
+    top:0px;
+}

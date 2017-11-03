@@ -1,0 +1,50 @@
+.dingdanye{
+    border-bottom: 1px solid #C1C1C1;
+    font-size: 20px;
+    color: #000;
+    height: 39px;
+    width:100%;
+    background: #fff;
+    line-height:39px;
+    padding-left: 20px;
+}
+.sousuo{
+    width:100%;
+    margin-left:0px;
+    margin-top:0px;
+    height:70px;
+    padding-top:15px;
+    margin-bottom: 0px;
+}
+.liebiao{
+    height:116px;
+    width:100%;
+    background: #fff;
+    display: flex;
+    margin-top:23px;
+    justify-content: space-around;
+}
+.liebiao>li{
+    width:30%;
+    height:100%;
+    background: #FFF;
+    float: left;
+    box-shadow: 0px 0px 0.8px 0.8px rgba(232,232,232,0.8) ;
+}
+html,body{
+    background: #fff;
+}
+.liebiaoimg{
+    width:32%;
+    height:100%;
+    float: left;
+}
+.liebiaoimg>img{
+    width:100%;
+    height:100%;
+}
+.liebiaoshuju{
+    width:68%;
+    height:100%;
+    float: left;
+}

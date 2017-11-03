@@ -1,0 +1,33 @@
+@import url(index.css);
+.col{
+    width:100%;
+    height:auto;
+}
+.col-top{
+    margin-top:30px;
+    width: 100%;
+    height:118px;
+    background: url("../img/29.png") no-repeat center;
+}
+.col-con{
+    width:80%;
+    height:auto;
+    margin: 20px auto;
+}
+.col-con>li{
+    height:195px;
+    width:100%;
+    border-bottom:1px solid #F0F0F0;
+}
+.COLL{
+    margin-left:-12px;
+    margin-right: 5px;
+}
+.COLLa{
+    margin-right: 15px;
+}
+
+@import url(love.css);
+.col-con>li:hover>.clearcoll{
+    display: block;
+}
